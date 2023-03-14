@@ -93,8 +93,8 @@ const game = async (screen, refresh, keyPress) => {
     finished = false;
     await initGame();
     while (!finished) {
-      moveBike();
-      putBlock();
+      await moveBike();
+      await putBlock();
       await refresh();
       await sleep(100);
     }
