@@ -1,4 +1,4 @@
-# React Text Game Example
+# React Text Game Engine
 
 Disclaimer: This is not an official Google product.
 
