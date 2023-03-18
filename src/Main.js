@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
+// eslint-disable-next-line
 import { GameBackend, getScreen, sleep, randInt, clearScreen, print }
        from "./components/GameBackend";
-
 
 // Your code here!
 const game = async (screen, refresh, keyPress, exit) => {
